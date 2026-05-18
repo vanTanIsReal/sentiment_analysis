@@ -1,1 +1,17 @@
-# Mẫu few-shot prompting (Gemini / OpenAI)
+# Ví dụ few-shot — aspect + sentiment (JSON mô tả bên dưới là KẾT QUẢ mong muốn)
+
+# Đánh giá: "Màn hình đẹp sắc nét nhưng pin hơi yếu, chơi game nóng máy."
+# JSON:
+# [
+#   {"aspect": "màn_hình", "sentiment": "positive", "quote": "Màn hình đẹp sắc nét"},
+#   {"aspect": "pin", "sentiment": "negative", "quote": "pin hơi yếu"},
+#   {"aspect": "hiệu_năng", "sentiment": "negative", "quote": "chơi game nóng máy"}
+# ]
+
+# Đánh giá: "Giá tốt, camera selfie xấu, loa nghe được."
+# JSON:
+# [
+#   {"aspect": "giá_cả", "sentiment": "positive"},
+#   {"aspect": "camera", "sentiment": "negative", "quote": "camera selfie xấu"},
+#   {"aspect": "loa", "sentiment": "neutral"}
+# ]
